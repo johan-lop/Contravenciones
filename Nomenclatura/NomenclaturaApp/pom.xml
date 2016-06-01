@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>Nomenclatura</artifactId>
+    <groupId>co.com.contravenciones</groupId>
+    <version>1.0.1</version>
+  </parent>
+  <groupId>co.com.contravenciones</groupId>
+  <artifactId>NomenclaturaApp</artifactId>
+  <version>1.0.1</version>
+  <packaging>pom</packaging>
+  <name>NomenclaturaApp</name>
+  <modules>
+    <module>Nomenclatura-EAR</module>
+    <module>Nomenclatura-WAR</module>
+    <module>Nomenclatura-EJB</module>
+  </modules>
+</project>
