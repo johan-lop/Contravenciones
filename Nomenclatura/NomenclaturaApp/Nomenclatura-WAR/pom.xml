@@ -21,9 +21,20 @@
     
     <dependencies>
         <dependency>
-            <groupId>${project.groupId}</groupId>
+            <groupId>co.com.contravenciones</groupId>
             <artifactId>Tema</artifactId>
-            <version>${project.version}</version>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>co.com.contravenciones</groupId>
+            <artifactId>Dtos</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>co.com.contravenciones</groupId>
+            <artifactId>Nomenclatura-EJB</artifactId>
+            <version>1.0.1</version>
+            
         </dependency>
         <dependency>
             <groupId>javax</groupId>
@@ -42,7 +53,11 @@
             <artifactId>primefaces-extensions</artifactId>
             <version>4.0.0</version>
         </dependency>
-        
+        <dependency>  
+            <groupId>org.primefaces.themes</groupId>  
+            <artifactId>all-themes</artifactId>  
+            <version>1.0.10</version>  
+        </dependency> 
         <dependency>
             <groupId>org.ocpsoft.rewrite</groupId>
             <artifactId>rewrite-servlet</artifactId>
@@ -100,7 +115,14 @@
             <version>6.1.1</version>
         </dependency>
     </dependencies>
-
+    <repositories>
+        <repository>
+            <id>prime-repo</id>
+            <name>PrimeFaces Maven Repository</name>
+            <url>http://repository.primefaces.org</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
     <build>
         <plugins>
             <plugin>

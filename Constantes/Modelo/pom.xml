@@ -8,6 +8,33 @@
     </parent>
     <artifactId>Modelo</artifactId>
     <packaging>jar</packaging>
+    
+    <dependencies>        
+        <dependency>
+            <groupId>org.eclipse.persistence</groupId>
+            <artifactId>eclipselink</artifactId>
+            <version>2.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>co.com.contravenciones</groupId>
+            <artifactId>Constantes</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>co.com.contravenciones</groupId>
+            <artifactId>Dtos</artifactId>
+            <version>1.0.1</version>
+            <scope>provided</scope>
+        </dependency> 
+               
+    </dependencies>
+    
     <properties>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>

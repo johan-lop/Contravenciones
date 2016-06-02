@@ -8,6 +8,26 @@
     </parent>
     <artifactId>NomenclaturaJarDef</artifactId>
     <packaging>jar</packaging>
+    
+    <dependencies>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>co.com.contravenciones</groupId>
+            <artifactId>Modelo</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>co.com.contravenciones</groupId>
+            <artifactId>Dtos</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+    </dependencies>
+    
     <properties>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
